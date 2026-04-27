@@ -2,40 +2,24 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background: #1f3a6d;
+  background: #1f3a6d; 
 }
 .container {
   position: relative;
   width: 100%;
 }
-
-/* Long image behavior */
 .long-image {
   width: 100%;
   height: auto;
   display: block;
 }
-
-/* Invisible clickable RSVP area */
 .rsvp-btn {
   position: absolute;
-
-  /* 🔥 THESE VALUES ARE TUNED FOR YOUR IMAGE */
   top: 92%;
   left: 73%;
-
   transform: translate(-50%, -50%);
-
   width: 22%;
   height: 8%;
-
   cursor: pointer;
-  background: rgba(255, 0, 0, 0); /* invisible */
+  background: rgba(255, 0, 0, 0);
 }
-
-/* Optional: debug mode (turn ON to see button position) */
-/*
-.rsvp-btn {
-  background: rgba(255, 0, 0, 0.3);
-}
-*/
